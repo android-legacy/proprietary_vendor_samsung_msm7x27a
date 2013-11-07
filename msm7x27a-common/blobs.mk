@@ -72,6 +72,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/samsung/msm7x27a-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
+## GPU Blobs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+
 ## Binaries
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \

@@ -119,6 +119,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so
+    vendor/samsung/msm7x27a-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so

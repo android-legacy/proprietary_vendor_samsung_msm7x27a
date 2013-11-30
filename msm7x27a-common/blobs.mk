@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so
 ## Camera
 PRODUCT_COPY_FILES += \

@@ -18,10 +18,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/msm7x27a-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/msm7x27a-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/samsung/msm7x27a-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/msm7x27a-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \

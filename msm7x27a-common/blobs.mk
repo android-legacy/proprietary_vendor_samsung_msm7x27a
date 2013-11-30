@@ -15,14 +15,11 @@
 
 ## RIL (Radio Interface Relay)
 PRODUCT_COPY_FILES += \
-    vendor/huawei/u8815/proprietary/bin/rild:system/bin/rild \
-    vendor/huawei/u8815/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/huawei/u8815/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/huawei/u8815/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/huawei/u8815/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/huawei/u8815/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/huawei/u8815/proprietary/lib/libsettings.so:system/lib/libsettings.so \
-    vendor/huawei/u8815/proprietary/lib/libshareril.so:system/lib/libshareril.so
+    vendor/samsung/msm7x27a-common/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+
 ## Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \

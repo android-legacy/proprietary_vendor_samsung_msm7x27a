@@ -16,6 +16,8 @@
 ## RIL (Radio Interface Relay)
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/msm7x27a-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/msm7x27a-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/samsung/msm7x27a-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
@@ -79,7 +81,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/samsung/msm7x27a-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so

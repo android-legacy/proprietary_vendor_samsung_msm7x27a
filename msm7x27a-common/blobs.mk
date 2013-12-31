@@ -67,7 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so
+    vendor/samsung/msm7x27a-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7x27a.so
 
 ## FM
 PRODUCT_COPY_FILES += \

@@ -95,11 +95,6 @@ PRODUCT_COPY_FILES += \
 
 ## Adreno 200 GPU
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -111,13 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libCB.so:system/lib/libCB.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
+    vendor/samsung/msm7x27a-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
 
 ## GPU firmware
 PRODUCT_COPY_FILES += \

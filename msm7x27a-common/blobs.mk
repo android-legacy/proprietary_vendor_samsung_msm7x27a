@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 
 ## Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libcaps.so:system/lib/libcaps.so \

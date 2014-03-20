@@ -56,6 +56,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
 
+## Hostapd
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27a-common/proprietary/bin/hostapd:system/bin/hostapd
+    vendor/samsung/msm7x27a-common/proprietary/bin/p2p_supplicant:system/bin/p2p_supplicant
+
 ## Adreno 200 GPU
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
